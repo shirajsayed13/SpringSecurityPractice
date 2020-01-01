@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6a0a12d-06c6-4988-b9e4-ca5c4b15d837" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiraj/springsecuritypractice/student/StudentManagementController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiraj/springsecuritypractice/ApplicationUserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiraj/springsecuritypractice/ApplicationUserRole.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shiraj/springsecuritypractice/SpringsecuritypracticeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiraj/springsecuritypractice/SpringsecuritypracticeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiraj/springsecuritypractice/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiraj/springsecuritypractice/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shiraj/springsecuritypractice/SpringsecuritypracticeApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shiraj/springsecuritypractice/SpringsecuritypracticeApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shiraj/springsecuritypractice/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shiraj/springsecuritypractice/Student.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577860098713</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Setup Authorities and permission">
+      <created>1577868008613</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577868008613</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -138,7 +141,8 @@
     <MESSAGE value="Setup for BCrypt password encoder" />
     <MESSAGE value="Setup roles" />
     <MESSAGE value="Setup roles based authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup roles based authentication" />
+    <MESSAGE value="Setup Authorities and permission" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Authorities and permission" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-827" y="153" key="#com.intellij.ide.util.MemberChooser" timestamp="1577861210201">
@@ -149,26 +153,26 @@
       <screen x="-1280" y="-42" width="1280" height="1001" />
     </state>
     <state x="-750" y="141" width="593" height="579" key="#xdebugger.evaluate/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577858231040" />
-    <state x="-1098" y="30" key="CommitChangelistDialog2" timestamp="1577860098518">
+    <state x="-1098" y="30" key="CommitChangelistDialog2" timestamp="1577868008420">
       <screen x="-1280" y="-42" width="1280" height="1001" />
     </state>
-    <state x="-1098" y="30" key="CommitChangelistDialog2/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577860098518" />
-    <state width="1238" height="243" key="GridCell.Tab.0.bottom" timestamp="1577867748647">
+    <state x="-1098" y="30" key="CommitChangelistDialog2/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577868008420" />
+    <state width="1238" height="243" key="GridCell.Tab.0.bottom" timestamp="1577868738724">
       <screen x="-1280" y="-42" width="1280" height="1001" />
     </state>
-    <state width="1238" height="243" key="GridCell.Tab.0.bottom/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577867748647" />
-    <state width="1238" height="243" key="GridCell.Tab.0.center" timestamp="1577867748638">
+    <state width="1238" height="243" key="GridCell.Tab.0.bottom/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577868738724" />
+    <state width="1238" height="243" key="GridCell.Tab.0.center" timestamp="1577868738723">
       <screen x="-1280" y="-42" width="1280" height="1001" />
     </state>
-    <state width="1238" height="243" key="GridCell.Tab.0.center/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577867748638" />
-    <state width="1238" height="243" key="GridCell.Tab.0.left" timestamp="1577867748637">
+    <state width="1238" height="243" key="GridCell.Tab.0.center/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577868738723" />
+    <state width="1238" height="243" key="GridCell.Tab.0.left" timestamp="1577868738722">
       <screen x="-1280" y="-42" width="1280" height="1001" />
     </state>
-    <state width="1238" height="243" key="GridCell.Tab.0.left/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577867748637" />
-    <state width="1238" height="243" key="GridCell.Tab.0.right" timestamp="1577867748642">
+    <state width="1238" height="243" key="GridCell.Tab.0.left/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577868738722" />
+    <state width="1238" height="243" key="GridCell.Tab.0.right" timestamp="1577868738723">
       <screen x="-1280" y="-42" width="1280" height="1001" />
     </state>
-    <state width="1238" height="243" key="GridCell.Tab.0.right/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577867748642" />
+    <state width="1238" height="243" key="GridCell.Tab.0.right/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577868738723" />
     <state width="1238" height="362" key="GridCell.Tab.1.bottom" timestamp="1577864229996">
       <screen x="-1280" y="-42" width="1280" height="1001" />
     </state>
