@@ -18,6 +18,8 @@ public class SpringsecuritypracticeApplication extends WebSecurityConfigurerAdap
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http.authorizeRequests()
+				.antMatchers("/","index","/css/*","/js/*")
+				.permitAll()
 				.anyRequest()
 				.authenticated()
 				.and()
