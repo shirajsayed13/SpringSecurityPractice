@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6a0a12d-06c6-4988-b9e4-ca5c4b15d837" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiraj/springsecuritypractice/PasswordConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiraj/springsecuritypractice/ApplicationUserPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiraj/springsecuritypractice/ApplicationUserRole.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecuritypractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springsecuritypractice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shiraj/springsecuritypractice/SpringsecuritypracticeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiraj/springsecuritypractice/SpringsecuritypracticeApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shiraj/springsecuritypractice/SpringsecuritypracticeApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shiraj/springsecuritypractice/SpringsecuritypracticeApplication.class" afterDir="false" />
     </list>
@@ -103,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577857791320</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Setup for BCrypt password encoder">
+      <created>1577858538368</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577858538368</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -111,7 +121,8 @@
     <MESSAGE value="basic auth in application class" />
     <MESSAGE value="Set up antMatchers" />
     <MESSAGE value="Use InMemoryUserDataBase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use InMemoryUserDataBase" />
+    <MESSAGE value="Setup for BCrypt password encoder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup for BCrypt password encoder" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-827" y="153" key="#com.intellij.ide.util.MemberChooser" timestamp="1577855901389">
@@ -122,26 +133,26 @@
       <screen x="-1280" y="-42" width="1280" height="1001" />
     </state>
     <state x="-750" y="141" width="593" height="579" key="#xdebugger.evaluate/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577858231040" />
-    <state x="-1098" y="30" key="CommitChangelistDialog2" timestamp="1577857791108">
+    <state x="-1098" y="30" key="CommitChangelistDialog2" timestamp="1577858538162">
       <screen x="-1280" y="-42" width="1280" height="1001" />
     </state>
-    <state x="-1098" y="30" key="CommitChangelistDialog2/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577857791108" />
-    <state width="1238" height="300" key="GridCell.Tab.0.bottom" timestamp="1577858257319">
+    <state x="-1098" y="30" key="CommitChangelistDialog2/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577858538162" />
+    <state width="1238" height="243" key="GridCell.Tab.0.bottom" timestamp="1577859327817">
       <screen x="-1280" y="-42" width="1280" height="1001" />
     </state>
-    <state width="1238" height="300" key="GridCell.Tab.0.bottom/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577858257319" />
-    <state width="1238" height="300" key="GridCell.Tab.0.center" timestamp="1577858257318">
+    <state width="1238" height="243" key="GridCell.Tab.0.bottom/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577859327817" />
+    <state width="1238" height="243" key="GridCell.Tab.0.center" timestamp="1577859327816">
       <screen x="-1280" y="-42" width="1280" height="1001" />
     </state>
-    <state width="1238" height="300" key="GridCell.Tab.0.center/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577858257318" />
-    <state width="1238" height="300" key="GridCell.Tab.0.left" timestamp="1577858257317">
+    <state width="1238" height="243" key="GridCell.Tab.0.center/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577859327816" />
+    <state width="1238" height="243" key="GridCell.Tab.0.left" timestamp="1577859327816">
       <screen x="-1280" y="-42" width="1280" height="1001" />
     </state>
-    <state width="1238" height="300" key="GridCell.Tab.0.left/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577858257317" />
-    <state width="1238" height="300" key="GridCell.Tab.0.right" timestamp="1577858257319">
+    <state width="1238" height="243" key="GridCell.Tab.0.left/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577859327816" />
+    <state width="1238" height="243" key="GridCell.Tab.0.right" timestamp="1577859327817">
       <screen x="-1280" y="-42" width="1280" height="1001" />
     </state>
-    <state width="1238" height="300" key="GridCell.Tab.0.right/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577858257319" />
+    <state width="1238" height="243" key="GridCell.Tab.0.right/-1280.-42.1280.1001/0.23.1280.709@-1280.-42.1280.1001" timestamp="1577859327817" />
     <state width="1238" height="300" key="GridCell.Tab.1.bottom" timestamp="1577858257321">
       <screen x="-1280" y="-42" width="1280" height="1001" />
     </state>
