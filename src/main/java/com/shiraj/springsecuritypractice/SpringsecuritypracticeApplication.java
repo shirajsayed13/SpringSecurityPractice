@@ -1,5 +1,6 @@
 package com.shiraj.springsecuritypractice;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -9,6 +10,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
 @SpringBootApplication
@@ -19,6 +21,12 @@ public class SpringsecuritypracticeApplication extends WebSecurityConfigurerAdap
 		SpringApplication.run(SpringsecuritypracticeApplication.class, args);
 	}
 
+	private final PasswordEncoder passwordEncoder;
+
+	@Autowired
+	public SpringsecuritypracticeApplication(PasswordEncoder passwordEncoder) {
+		this.passwordEncoder = passwordEncoder;
+	}
 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
@@ -37,7 +45,7 @@ public class SpringsecuritypracticeApplication extends WebSecurityConfigurerAdap
 	protected UserDetailsService userDetailsService() {
 		UserDetails userDetails = User.builder()
 				.username("shiraj")
-				.password("password")
+				.password(passwordEncoder.encode("password"))
 				.roles("STUDENT")
 				.build();
 
